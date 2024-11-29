@@ -32,7 +32,7 @@ main {
 aside {
     width: 400px;
     margin: 50px;
-    border: 1px  rgb(184, 180, 180);
+    border: 1px rgb(184, 180, 180);
     padding: 50px;
     background-color: #eee;
     color: rgb(67, 83, 70);
@@ -46,7 +46,7 @@ aside img{
 
 footer {
     margin-top: 100px;
-    border-top: 1px dotted black;
+    border-top: 1px solid black;
     text-align: center;
 }
 
