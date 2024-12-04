@@ -1,12 +1,16 @@
+:root {
+    --padding: 1rem;
+}
+
 nav {
     background-color: rgb(9, 129, 73);
-    padding: 10px;
+    padding: var(--padding);
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 h1 {
@@ -37,7 +41,6 @@ aside {
     background-color: #eee;
     color: rgb(67, 83, 70);
     text-align: center;
-    text-decoration: ;
 }
 
 aside img{
