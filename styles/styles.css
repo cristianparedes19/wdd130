@@ -1,5 +1,12 @@
+:root {
+    --color: rgb(5, 107, 47);
+    --text-align: center;
+}
+
+
+
 nav {
-    background-color: rgba(48, 139, 65, 0.952);
+    background-color: var(--color);
     padding: 10px;
 }
 
@@ -10,7 +17,7 @@ nav a {
 }
 
 h1 {
-    color: rgb(5, 107, 47);
+    color: var(--color);
 }
 
 main img {
@@ -36,7 +43,7 @@ aside {
     padding: 5px; 
     background-color: rgba(37, 153, 76, 0.336);
     color: #333;
-    text-align: center;
+    text-align: var(--text-align);
 }
 
 aside img {
@@ -47,7 +54,7 @@ aside img {
 footer {
     margin-top: 20px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--text-align);
 }
 
 
