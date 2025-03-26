@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #354F52;
+    --secondary-color: #52796F;
+    --accent1-color: #84A98C;
+    --accent2-color: #CAD2C5;
+    --heading-font: "Oswald", sans-serif;
+    --text-font: "Roboto", sans-serif; 
+}
+
+nav a{
+    text-decoration: none;
+}
+
+main {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    max-width: 1000px;
+    
+}
+
+p {
+    font-family: var(--text-font);
+    color: black;
+}
+
+section img {
+    display: block;
+    margin: 1rem;
+}
+
+.sociallinks {
+    text-decoration: none;
+}
+
+.sociallinks img {
+    width: 50px;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem;
+}
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    color: var(--accent2-color)
+}
+
+.hero article {
+    position: absolute;  
+    background-color: #cad2c5b2;
+    top: 100px;
+    margin: 60px;
+    padding: 1rem;
+}
+
+.hero article img {
+    float: right;
+    width: 250px;
+    padding: 1rem;
+}
+
